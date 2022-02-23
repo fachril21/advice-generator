@@ -1,12 +1,11 @@
 <template>
   <div class="bg-gray-800 min-h-screen">
     <div
-      class="container mx-auto min-h-screen flex flex-col items-center justify-center text-white"
+      class="container mx-auto min-h-screen flex flex-col items-center justify-center text-white px-4"
     >
       <div
         id="card"
-        class="rounded-lg flex flex-col gap-4 items-center justify-center bg-gray-700 p-8 relative"
-        :style="{ width: '600px' }"
+        class="rounded-lg w-auto flex flex-col gap-4 items-center justify-center bg-gray-700 p-8 relative"
       >
         <div id="data" class="flex flex-col gap-4 items-center justify-center">
           <div id="id">
